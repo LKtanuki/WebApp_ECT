@@ -4,6 +4,15 @@
     <?php
         echo "ต้องการดูกระทู้หมายเลข ".$_GET["id"];
     ?>
+        <br>
+        <?php
+        if($_GET["id"]%2 == 0 ){
+            echo "เป็นกระทุ้หมายเลขคู่";
+        }
+        else{
+            echo "เป็นกระทุ้หมายเลขคี่";
+        }
+    ?>
 </div>
 <br>
 <form action="verify.php" method="post"> 
@@ -20,6 +29,6 @@
         </table>
     </form>
     <div align="center">
-      <a href="index.html">กลับไปหน้าหลัก</a>
+      <a href="index.php">กลับไปหน้าหลัก</a>
     </div>
     

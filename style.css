@@ -1,5 +1,7 @@
 body{
-    background-color: hotpink;
+    background-image: url(mei.jpg);
+    background-size:100%;
+    
 }
 html{font-size: 20px}
 p:nth-child(1){font-size: 16pt;}
